@@ -1,0 +1,59 @@
+.main {
+    height: 838px;
+    width: 100%;
+    background: #4061af;
+    position: relative;
+    top: -16px;
+    display: flex;
+    align-items: center;
+}
+
+.main__subtitle {
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
+
+.main__subtitle-location {
+    color: white;
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main__title {
+    color: white;
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+}
+
+.book-btn {
+    background: #D14D09;
+    border-radius: 8px;
+    padding: 10px 40px;
+    border-style: none;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
