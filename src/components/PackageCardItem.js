@@ -23,10 +23,13 @@ export const PackageCardItem = ({ persons, price, discount, originalPrice }) => 
             </div>
             <div className="package__card__item__col-right">
                 <p className="package__card__item__col-right__price">{price}</p>
+                { discount ? (
                     <div className="package__card__item__col-right__discount-row">
                         <p className="package__card__item__col-right__discount-row__original-price">{originalPrice}</p>
                         <p className="package__card__item__col-right__discount-row__discount">{discount}</p>
                     </div>
+                ) : null }
+
             </div>
         </div>
     )

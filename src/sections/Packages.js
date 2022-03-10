@@ -5,15 +5,23 @@ import {Hidden} from "@mui/material";
 import {TabPicker} from "../components/TabPicker";
 import {PackageCard} from "../components/PackageCard";
 import {PackageCardItem} from "../components/PackageCardItem";
+import {TicketsCounter} from "../components/TicketsCounter";
+
+import ring from '../assets/svg/ring.svg'
+import car from '../assets/svg/car.svg'
+import cocktail from '../assets/svg/cocktail.svg'
+import party from '../assets/svg/party.svg'
+import kayak from '../assets/svg/kayak.svg'
 
 export const Packages = () => {
 
-    const [tab, setTab] = useState(1)
+    const [tab, setTab] = useState(2)
 
     return (
         <section className="packages">
             <TabPicker onClick={setTab}/>
-            <Container>
+            {/*<div className="packages__bg">*/}
+                <Container>
             { tab === 1 ? (
                 <div className="packages__tab">
                     <div className="packages__tab__cards-row">
@@ -53,6 +61,54 @@ export const Packages = () => {
                 </div>
             )}
             </Container>
+            <TicketsCounter number={47}/>
+            <Container>
+                <h2 className="title">INCLUDES</h2>
+                {/*<Grid container>*/}
+                {/*    <Grid item sm={4} xs={6}>*/}
+
+                {/*    </Grid>*/}
+                {/*</Grid>*/}
+
+                <div className="includes__row">
+                    <div className="includes__row__item">
+                        <img src={ring} className="includes__row__item__icon"/>
+                        <p className="includes__row__item__text">
+                            Hotel room + room service
+                        </p>
+                    </div>
+                    <div className="includes__row__item">
+                        <img src={cocktail} className="includes__row__item__icon"/>
+                        <p className="includes__row__item__text">
+                            All inclusive Food & Beverages including alcohol
+                        </p>
+                    </div>
+                    <div className="includes__row__item">
+                        <img src={kayak} className="includes__row__item__icon"/>
+                        <p className="includes__row__item__text">
+                            All Activities
+                        </p>
+                    </div>
+                    <div className="includes__row__item">
+                        <img src={party} className="includes__row__item__icon"/>
+                        <p className="includes__row__item__text">
+                            All Entertainment
+                        </p>
+                    </div>
+                    <div className="includes__row__item">
+                        <img src={car} className="includes__row__item__icon"/>
+                        <p className="includes__row__item__text">
+                            Transportation
+                        </p>
+                    </div>
+                </div>
+
+            </Container>
+            <p className="discount-info">
+                Club Members = 20% discount off face value
+            </p>
+            {/*</div>*/}
+
         </section>
     )
 }

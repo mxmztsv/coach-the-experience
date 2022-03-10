@@ -4,11 +4,56 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: #F5FAFE;
+    padding-bottom: 50px;
 }
+
+/*.packages__bg {*/
+/*    position: absolute;*/
+/*    background: #F5FAFE;*/
+/*}*/
 
 .packages__tab__cards-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+}
+
+.includes__row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.includes__row__item {
+    min-width: 160px;
+}
+
+.includes__row__item__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    max-width: 160px;
+
+    color: #000000;
+}
+
+.discount-info {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    padding: 10px 25px;
+    background: #FFFFFF;
+
+    text-align: center;
+
+    color: #3C71FA;
 }

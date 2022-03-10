@@ -4,6 +4,7 @@
 @import url('styles/Packages.css');
 @import url('styles/PackageCard.css');
 @import url('styles/PackageCardItem.css');
+@import url('styles/TicketsCounter.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';
@@ -37,4 +38,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font-family: 'Poppins Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 63px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
 }
