@@ -1,5 +1,9 @@
 @import url('styles/Header.css');
 @import url('styles/Main.css');
+@import url('styles/TabPicker.css');
+@import url('styles/Packages.css');
+@import url('styles/PackageCard.css');
+@import url('styles/PackageCardItem.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';

@@ -1,0 +1,74 @@
+.tab-picker {
+    background-color: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.tab-picker__btn {
+    padding: 5px 15px;
+    width: 88px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    /* identical to box height, or 150% */
+
+    text-transform: uppercase;
+
+    color: #2F2828;
+}
+
+.tab-picker__btn_active {
+    padding: 5px 15px;
+    width: 88px;
+    height: 34px;
+    background: linear-gradient(180deg, #7C92FF 0%, #2847E2 100%);
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    /* identical to box height, or 150% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.tab-picker__triangle_left {
+    border: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, .1);
+    width: 0px;
+    position: relative;
+    left: 20%;
+}
+
+.tab-picker__triangle_right {
+    border: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, .1);
+    width: 0px;
+    position: relative;
+    left: 70%;
+}
