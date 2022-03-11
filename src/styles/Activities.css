@@ -7,7 +7,7 @@
 
 .activities__header__title__wrapper {
     background: #FFFFFF;
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
 
 .activities__header__subtitle {
@@ -27,4 +27,185 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.activities__cards__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.activities__card__img {
+    margin: 0;
+    border-top-right-radius: 40px;
+}
+
+.activities__card__content_brown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 2px solid #A16969;
+    border-right: 2px solid #A16969;
+    border-left: 2px solid #A16969;
+    box-sizing: border-box;
+    /*box-shadow: 0px 16px 22px rgba(102, 127, 152, 0.1);*/
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 0 65px 25px 65px;
+}
+
+.activities__card__content_blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 2px solid #3E91F3;
+    border-right: 2px solid #3E91F3;
+    border-left: 2px solid #3E91F3;
+    box-sizing: border-box;
+    /*box-shadow: 0px 16px 22px rgba(102, 127, 152, 0.1);*/
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 0 65px 25px 65px;
+}
+
+.activities__card__content_yellow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 2px solid #F6B914;
+    border-right: 2px solid #F6B914;
+    border-left: 2px solid #F6B914;
+    box-sizing: border-box;
+    /*box-shadow: 0px 16px 22px rgba(102, 127, 152, 0.1);*/
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 0 65px 25px 65px;
+}
+
+.activities__card__content__title_brown {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A16969;
+}
+
+.activities__card__content__title_blue {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3E91F3;
+}
+
+.activities__card__content__title_yellow {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F6B914;
+}
+
+.activities__card__content__item_brown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    padding: 3px 20px;
+
+    background: #FFF4F4;
+    border-radius: 22px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.activities__card__content__item_blue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    padding: 3px 20px;
+
+    background: #F7F8FF;
+    border-radius: 22px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.activities__card__content__item_yellow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    padding: 3px 20px;
+
+    background: #FFF9E8;
+    border-radius: 22px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.activities__card__content__item__wrapper {
+    width: 100%;
+}
+
+.activities__card__content__item__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 10px 0;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.activities__card__content__item__img {
+    margin-right: 10px;
+}
+
+.activities__card {
+    display: flex;
+    flex-direction: column;
 }

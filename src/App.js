@@ -7,6 +7,7 @@ import {PhotoCarousel} from "./sections/PhotoCarousel";
 import {WhatIsHappening} from "./sections/WhatIsHappening";
 import {Coach} from "./sections/Coach";
 import {Activities} from "./sections/Activities";
+import {Network} from "./sections/Network";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <WhatIsHappening/>
         <Coach/>
         <Activities/>
+        <Network/>
     </div>
   );
 }
