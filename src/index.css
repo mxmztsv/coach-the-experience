@@ -5,6 +5,10 @@
 @import url('styles/PackageCard.css');
 @import url('styles/PackageCardItem.css');
 @import url('styles/TicketsCounter.css');
+@import url('styles/PhotoCarousel.css');
+@import url('styles/WhatIsHappening.css');
+@import url('styles/Coach.css');
+@import url('styles/Activities.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';

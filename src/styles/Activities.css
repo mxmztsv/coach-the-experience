@@ -1,0 +1,30 @@
+.activities__header {
+    background-image: url("../assets/img/baloons.jpg");
+    height: 754px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.activities__header__title__wrapper {
+    background: #FFFFFF;
+    padding-top: 50px;
+}
+
+.activities__header__subtitle {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    max-width: 800px;
+
+    color: #000000;
+}
+
+.activities__header__subtitle__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

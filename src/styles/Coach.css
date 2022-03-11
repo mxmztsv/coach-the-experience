@@ -1,0 +1,53 @@
+.coach {
+    padding: 80px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coach__info__title {
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.coach__info__name {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    margin: 0;
+    /* identical to box height */
+
+
+    color: #FF7152;
+}
+
+.coach__info__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.coach__info {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    height: 100%;
+    margin-top: 150px;
+    /*position: relative;*/
+    /*bottom: 0;*/
+}
+
+.coach__img {
+    width: 600px;
+}
