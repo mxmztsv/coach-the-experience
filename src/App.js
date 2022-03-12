@@ -13,6 +13,7 @@ import {SponsorPerks} from "./sections/SponsorPerks";
 import {Charities} from "./sections/Charities";
 import {Massage} from "./sections/Massage";
 import {Trip} from "./sections/Trip";
+import {ScavengerHunt} from "./sections/ScavengerHunt";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Charities/>
         <Massage/>
         <Trip/>
+        <ScavengerHunt/>
     </div>
   );
 }

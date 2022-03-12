@@ -1,0 +1,96 @@
+.hunt__card_red {
+    background: linear-gradient(117.78deg, #E94444 34.55%, #D05472 79.96%);
+    border: 8px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: -40px 40px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 10px;
+}
+
+.hunt__card_blue {
+    background: linear-gradient(117.78deg, #63B1FA 34.55%, #3C71FA 79.96%);
+    border: 8px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: -40px 40px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 10px;
+}
+
+.hunt__card_green {
+    background: linear-gradient(117.78deg, #75BA5D 34.55%, #42B300 79.96%);
+    border: 8px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: -40px 40px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 10px;
+}
+
+.hunt__cards__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hunt__card__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hunt__card__title {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100px;
+    margin: 30px 15px 10px 40px;
+    /* identical to box height, or 111% */
+
+
+    color: #FFFFFF;
+}
+
+.hunt__card__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    margin: 0 40px 40px 40px;
+    max-width: 270px;
+
+    color: #FFFFFF;
+}
+
+.hunt__card__img__wrapper {
+    padding: 15px 10px;
+}
+
+.hunt__card__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hunt__text__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hunt__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    max-width: 800px;
+    margin: 50px;
+
+    color: #000000;
+}
