@@ -10,6 +10,11 @@
 @import url('styles/Coach.css');
 @import url('styles/Activities.css');
 @import url('styles/Network.css');
+@import url('styles/Sponsors.css');
+@import url('styles/SponsorPerks.css');
+@import url('styles/Charities.css');
+@import url('styles/Massage.css');
+@import url('styles/Trip.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';

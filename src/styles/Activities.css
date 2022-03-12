@@ -38,6 +38,7 @@
 .activities__card__img {
     margin: 0;
     border-top-right-radius: 40px;
+    height: 180px;
 }
 
 .activities__card__content_brown {

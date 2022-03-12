@@ -1,0 +1,168 @@
+.trip {
+    padding: 80px 0;
+}
+
+.trip__day {
+    background: #F4F6F5;
+    border-radius: 30px;
+    padding: 20px 0px;
+    /*padding: 26px 0px 0 26px;*/
+    margin: 20px 0;
+}
+
+.trip__day__title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.trip__day__title__text {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 220px;
+    margin: 0;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+}
+
+.trip__day__title__number {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 178px;
+    line-height: 268px;
+    /* identical to box height */
+    margin: 0;
+
+    /*text-align: center;*/
+
+    color: #F4F6F5;
+    /*color: #2847E2;*/
+
+    /*border: 2.5px solid #0040E3;*/
+    text-shadow:
+            -0   -3px 0   #0040E3,
+            0   -3px 0   #0040E3,
+            -0    3px 0   #0040E3,
+            0    3px 0   #0040E3,
+            -3px -0   0   #0040E3,
+            3px -0   0   #0040E3,
+            -3px  0   0   #0040E3,
+            3px  0   0   #0040E3,
+            -1px -3px 0   #0040E3,
+            1px -3px 0   #0040E3,
+            -1px  3px 0   #0040E3,
+            1px  3px 0   #0040E3,
+            -3px -1px 0   #0040E3,
+            3px -1px 0   #0040E3,
+            -3px  1px 0   #0040E3,
+            3px  1px 0   #0040E3,
+            -2px -3px 0   #0040E3,
+            2px -3px 0   #0040E3,
+            -2px  3px 0   #0040E3,
+            2px  3px 0   #0040E3,
+            -3px -2px 0   #0040E3,
+            3px -2px 0   #0040E3,
+            -3px  2px 0   #0040E3,
+            3px  2px 0   #0040E3,
+            -3px -3px 0   #0040E3,
+            3px -3px 0   #0040E3,
+            -3px  3px 0   #0040E3,
+            3px  3px 0   #0040E3,
+            -3px -3px 0   #0040E3,
+            3px -3px 0   #0040E3,
+            -3px  3px 0   #0040E3,
+            3px  3px 0   #0040E3;
+}
+
+.trip__day__time__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.trip__day__time {
+    font-family: 'Poppins Semi-bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 4px 0;
+    /* identical to box height */
+
+    background: #0C8BFF;
+    border-radius: 6px 0px 0px 6px;
+    color: #FFFFFF;
+}
+
+.trip__day__time_yellow {
+    font-family: 'Poppins Semi-bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 4px 0;
+    /* identical to box height */
+
+    background: #FFBA00;
+    border-radius: 6px 0px 0px 6px;
+    color: #FFFFFF;
+}
+
+.trip__day__event__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 90%;
+}
+
+.trip__day__event {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 6px 10px;
+    margin: 4px 0;
+    /* identical to box height */
+
+    background: #FFFFFF;
+    border-radius: 0px 6px 6px 0px;
+    color: #000000;
+}
+
+.trip__day__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 0;
+}
+
+.trip__day__table__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}

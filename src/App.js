@@ -8,6 +8,11 @@ import {WhatIsHappening} from "./sections/WhatIsHappening";
 import {Coach} from "./sections/Coach";
 import {Activities} from "./sections/Activities";
 import {Network} from "./sections/Network";
+import {Sponsors} from "./sections/Sponsors";
+import {SponsorPerks} from "./sections/SponsorPerks";
+import {Charities} from "./sections/Charities";
+import {Massage} from "./sections/Massage";
+import {Trip} from "./sections/Trip";
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
         <Coach/>
         <Activities/>
         <Network/>
+        <Sponsors/>
+        <SponsorPerks/>
+        <Charities/>
+        <Massage/>
+        <Trip/>
     </div>
   );
 }
