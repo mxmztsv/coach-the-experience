@@ -18,7 +18,7 @@ export const Packages = () => {
     const [tab, setTab] = useState(2)
 
     return (
-        <section className="packages">
+        <section className="packages" id="packages">
             <TabPicker onClick={setTab}/>
             {/*<div className="packages__bg">*/}
                 <Container>

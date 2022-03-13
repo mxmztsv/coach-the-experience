@@ -14,6 +14,10 @@ import {Charities} from "./sections/Charities";
 import {Massage} from "./sections/Massage";
 import {Trip} from "./sections/Trip";
 import {ScavengerHunt} from "./sections/ScavengerHunt";
+import {InfoCard} from "./sections/InfoCard";
+import {Booking} from "./sections/Booking";
+import {Partners} from "./sections/Partners";
+import {Footer} from "./sections/Footer";
 
 function App() {
   return (
@@ -32,6 +36,10 @@ function App() {
         <Massage/>
         <Trip/>
         <ScavengerHunt/>
+        <InfoCard/>
+        <Booking/>
+        <Partners/>
+        <Footer/>
     </div>
   );
 }

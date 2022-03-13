@@ -35,7 +35,7 @@ export const Activities = () => {
         <section className="activities">
             <div className="activities__header">
                 <Container>
-                <div className="activities__header__title__wrapper">
+                <div className="activities__header__title__wrapper"  id="activities">
                     <h2 className="title">Activities</h2>
                     <div className="activities__header__subtitle__wrapper">
                         <p className="activities__header__subtitle">

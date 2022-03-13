@@ -3,6 +3,8 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import {Hidden} from "@mui/material";
 
+import location from '../assets/svg/location 1.svg'
+
 export const Main = () => {
 
 
@@ -11,6 +13,7 @@ export const Main = () => {
             <Container>
                 <div className="main__wrapper">
                     <div className="main__subtitle-location__wrapper">
+                        <img src={location} className="main__subtitle-location__img"/>
                         <p className="main__subtitle-location">LOCATION:</p>
                     </div>
                     <h1 className="main__title">Le Meridien</h1>

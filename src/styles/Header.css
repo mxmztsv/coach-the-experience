@@ -48,3 +48,14 @@ header {
 .header__logo {
     height: 60px;
 }
+
+.header__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__socials__link {
+    margin: 0 12px;
+}

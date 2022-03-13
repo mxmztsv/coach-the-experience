@@ -16,6 +16,10 @@
 @import url('styles/Massage.css');
 @import url('styles/Trip.css');
 @import url('styles/ScavengerHunt.css');
+@import url('styles/InfoCard.css');
+@import url('styles/Booking.css');
+@import url('styles/Partners.css');
+@import url('styles/Footer.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';

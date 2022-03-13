@@ -8,7 +8,7 @@ export const Sponsors = () => {
 
 
     return (
-        <section className="sponsors">
+        <section className="sponsors" id="sponsors">
             <h2 className="title">Sponsors</h2>
             <div className="activities__header__subtitle__wrapper">
                 <p className="activities__header__subtitle">

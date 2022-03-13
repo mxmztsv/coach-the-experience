@@ -24,7 +24,7 @@ export const WhatIsHappening = () => {
 
 
     return (
-        <section className="wis">
+        <section className="wis" id="what-is-happening">
             <h2 className="title">What Is Happening ?</h2>
             <div className="wis__text__wrapper">
                 <p className="wis__text">

@@ -5,9 +5,9 @@ import Grid from '@mui/material/Grid';
 export const Trip = () => {
 
     return (
-        <section className="trip">
+        <section className="trip" id="trip-itinerary">
             <Container>
-                <h2 className="title">Trip Itinerary </h2>
+                <h2 className="title">Trip Itinerary</h2>
                 <div className="trip__wrapper">
 
                     <div className="trip__day">
