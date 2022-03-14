@@ -10,10 +10,12 @@ export const Coach = () => {
         <section className="coach">
             <Container>
                 <Grid container>
-                    <Grid item sm={7} xs={12}>
-                        <img src={coach} className="coach__img"/>
+                    <Grid item md={7} xs={12}>
+                        <div className="coach__img__wrapper">
+                            <img src={coach} className="coach__img"/>
+                        </div>
                     </Grid>
-                    <Grid item sm={5} xs={12}>
+                    <Grid item md={5} xs={12}>
                         <div className="coach__info">
                             <p className="coach__info__title">WHO IS COACH K</p>
                             <h2 className="coach__info__name">

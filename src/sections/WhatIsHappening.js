@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Hidden} from "@mui/material";
 
 // Import Swiper React components
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -32,55 +33,160 @@ export const WhatIsHappening = () => {
                     We mix networking, experiences, and team building to create lasting relationships with:
                 </p>
             </div>
-            <div className="wis__swiper__wrapper">
-            <Swiper
-                spaceBetween={15}
-                slidesPerView={5}
-                // slidesPerView={'auto'}
-                loop={true}
-                centeredSlides={true}
-                // setWrapperSize={true}
-                grabCursor={true}
+            <Hidden lgDown>
+                <div className="wis__swiper__wrapper">
+                    <Swiper
+                        spaceBetween={15}
+                        slidesPerView={5}
+                        // slidesPerView={'auto'}
+                        loop={true}
+                        centeredSlides={true}
+                        // setWrapperSize={true}
+                        grabCursor={true}
 
-            >
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={schema} className="wis__card__img"/>
-                        <p className="wis__card__text">Projects</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={cart} className="wis__card__img"/>
-                        <p className="wis__card__text">Market Makers</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={cpc} className="wis__card__img"/>
-                        <p className="wis__card__text">Entrepreneurs</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={add} className="wis__card__img"/>
-                        <p className="wis__card__text">Influencers & Marketing</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={puzzle} className="wis__card__img"/>
-                        <p className="wis__card__text">Teams</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="wis__card">
-                        <img src={bag} className="wis__card__img"/>
-                        <p className="wis__card__text">Venture Capital Funds</p>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-            </div>
+                    >
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={schema} className="wis__card__img"/>
+                                <p className="wis__card__text">Projects</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cart} className="wis__card__img"/>
+                                <p className="wis__card__text">Market Makers</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cpc} className="wis__card__img"/>
+                                <p className="wis__card__text">Entrepreneurs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={add} className="wis__card__img"/>
+                                <p className="wis__card__text">Influencers & Marketing</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={puzzle} className="wis__card__img"/>
+                                <p className="wis__card__text">Teams</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={bag} className="wis__card__img"/>
+                                <p className="wis__card__text">Venture Capital Funds</p>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
+            </Hidden>
+            <Hidden lgUp smDown>
+                <div className="wis__swiper__wrapper">
+                    <Swiper
+                        spaceBetween={5}
+                        slidesPerView={3}
+                        // slidesPerView={'auto'}
+                        loop={true}
+                        centeredSlides={true}
+                        // setWrapperSize={true}
+                        grabCursor={true}
+
+                    >
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={schema} className="wis__card__img"/>
+                                <p className="wis__card__text">Projects</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cart} className="wis__card__img"/>
+                                <p className="wis__card__text">Market Makers</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cpc} className="wis__card__img"/>
+                                <p className="wis__card__text">Entrepreneurs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={add} className="wis__card__img"/>
+                                <p className="wis__card__text">Influencers & Marketing</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={puzzle} className="wis__card__img"/>
+                                <p className="wis__card__text">Teams</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={bag} className="wis__card__img"/>
+                                <p className="wis__card__text">Venture Capital Funds</p>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
+            </Hidden>
+            <Hidden smUp>
+                <div className="wis__swiper__wrapper">
+                    <Swiper
+                        spaceBetween={5}
+                        slidesPerView={1.6}
+                        // slidesPerView={'auto'}
+                        loop={true}
+                        centeredSlides={true}
+                        // setWrapperSize={true}
+                        grabCursor={true}
+
+                    >
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={schema} className="wis__card__img"/>
+                                <p className="wis__card__text">Projects</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cart} className="wis__card__img"/>
+                                <p className="wis__card__text">Market Makers</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={cpc} className="wis__card__img"/>
+                                <p className="wis__card__text">Entrepreneurs</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={add} className="wis__card__img"/>
+                                <p className="wis__card__text">Influencers & Marketing</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={puzzle} className="wis__card__img"/>
+                                <p className="wis__card__text">Teams</p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="wis__card">
+                                <img src={bag} className="wis__card__img"/>
+                                <p className="wis__card__text">Venture Capital Funds</p>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
+            </Hidden>
+
             <div className="wis__text__wrapper">
                 <p className="wis__text">
                     This is the ultimate networking experience giving the opportunity of true connections with other leaders in the space all while having the time of your life.

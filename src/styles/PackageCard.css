@@ -127,3 +127,17 @@
 
     color: #6C6C6C;
 }
+
+@media (max-width: 600px) {
+    .package__card_platinum {
+        box-shadow: none;
+    }
+
+    .package__card_gold {
+        box-shadow: none;
+    }
+
+    .package__card_vip {
+        box-shadow: none;
+    }
+}

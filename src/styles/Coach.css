@@ -49,5 +49,42 @@
 }
 
 .coach__img {
-    width: 600px;
+    /*width: 600px;*/
+    width: 100%;
+    max-width: 600px;
+}
+
+.coach__img__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .coach__info {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .coach__info__title {
+        text-align: center;
+    }
+
+    .coach__info__name {
+        text-align: center;
+        font-size: 38px;
+        line-height: 57px;
+    }
+
+    .coach__info__text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .coach {
+        padding: 30px 0;
+    }
 }

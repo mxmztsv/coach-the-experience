@@ -22,3 +22,9 @@
     border-radius: 12px;
     /*max-height: 100%;*/
 }
+
+@media (max-width: 600px) {
+    .photo-carousel__item {
+        height: 250px;
+    }
+}

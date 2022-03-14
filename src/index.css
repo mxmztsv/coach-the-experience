@@ -67,3 +67,10 @@ body {
 
   color: #000000;
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}

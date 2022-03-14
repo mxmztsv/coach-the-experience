@@ -41,3 +41,19 @@
 
     color: #FFFFFF;
 }
+
+@media (max-width: 600px) {
+    .info-card__title {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .info-card__text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .info-card {
+        padding: 30px 15px;
+    }
+}

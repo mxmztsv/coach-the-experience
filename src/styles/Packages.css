@@ -30,6 +30,10 @@
 
 .includes__row__item {
     min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .includes__row__item__text {
@@ -42,6 +46,10 @@
     max-width: 160px;
 
     color: #000000;
+}
+
+.includes__row__item__icon {
+    width: 56px;
 }
 
 .discount-info {
@@ -58,3 +66,9 @@
 
     color: #3C71FA;
 }
+
+/*.swiper__wrapper {*/
+/*    display: flex;*/
+/*    max-width: 100vh;*/
+/*    background: #2847E2;*/
+/*}*/

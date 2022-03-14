@@ -22,7 +22,7 @@ import {Footer} from "./sections/Footer";
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/*<Header/>*/}
         <Main/>
         <Packages/>
         <PhotoCarousel/>
@@ -35,11 +35,11 @@ function App() {
         <Charities/>
         <Massage/>
         <Trip/>
-        <ScavengerHunt/>
+        {/*<ScavengerHunt/>*/}
         <InfoCard/>
-        <Booking/>
-        <Partners/>
-        <Footer/>
+        {/*<Booking/>*/}
+        {/*<Partners/>*/}
+        {/*<Footer/>*/}
     </div>
   );
 }

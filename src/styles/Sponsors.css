@@ -31,6 +31,7 @@
     border-radius: 16px;
     margin: 0 20px;
     height: 406px;
+    max-width: 320px;
 }
 
 .sponsors__card__price_blue {
@@ -169,4 +170,17 @@
 
 .sponsors__card__img {
     margin-bottom: 40px;
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    .sponsors__card {
+        margin: 0;
+        padding-top: 1px;
+        box-shadow: none;
+    }
+
+    .sponsors {
+        padding: 20px 0;
+    }
 }
