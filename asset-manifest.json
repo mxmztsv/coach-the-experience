@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coach-the-experience/static/css/main.04591692.css",
-    "main.js": "/coach-the-experience/static/js/main.8280194b.js",
+    "main.css": "/coach-the-experience/static/css/main.74f4f4f2.css",
+    "main.js": "/coach-the-experience/static/js/main.21be41cd.js",
     "static/js/787.fc9991df.chunk.js": "/coach-the-experience/static/js/787.fc9991df.chunk.js",
     "static/media/logo-ANDROMEDA-crown-rgb-for-white.png": "/coach-the-experience/static/media/logo-ANDROMEDA-crown-rgb-for-white.bf34a528eb793f1cf702.png",
     "static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.png": "/coach-the-experience/static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.89ca0a78f6b30d72fac8.png",
@@ -84,7 +84,7 @@
     "static/media/ring.svg": "/coach-the-experience/static/media/ring.522addc7a59c425cd8d52b74d236ce44.svg",
     "static/media/cpc.svg": "/coach-the-experience/static/media/cpc.328167e453c9f657ef1355f6aa6ccd39.svg",
     "static/media/add.svg": "/coach-the-experience/static/media/add.17b8979413764cc799ee0bc5d44d8911.svg",
-    "static/media/inst transparent.svg": "/coach-the-experience/static/media/inst transparent.326c5c18d112ff893181758a80f8e543.svg",
+    "static/media/inst-transparent.svg": "/coach-the-experience/static/media/inst-transparent.75c4dbf738774b60432b2ebfb8dd3229.svg",
     "static/media/inst.svg": "/coach-the-experience/static/media/inst.329568e10df8726bd7642d6d7d902954.svg",
     "static/media/schema.svg": "/coach-the-experience/static/media/schema.e0c02115fca6f608d1b54403f80c1ed0.svg",
     "static/media/cocktail.svg": "/coach-the-experience/static/media/cocktail.35e9ae4afe81bc7584198b682ea6a280.svg",
@@ -113,22 +113,24 @@
     "static/media/user.svg": "/coach-the-experience/static/media/user.6f9095cb6ef09ef820679b8ac3634c25.svg",
     "static/media/location 1.svg": "/coach-the-experience/static/media/location 1.5a062c1d382e0ad4f86a8f9bb421833e.svg",
     "static/media/mail.svg": "/coach-the-experience/static/media/mail.c05f9472a9b561d326e88087f79472ce.svg",
-    "static/media/tweeter transparent.svg": "/coach-the-experience/static/media/tweeter transparent.ef4f0e3eb239381a09d78b7459ce48d9.svg",
+    "static/media/twitter-transparent.svg": "/coach-the-experience/static/media/twitter-transparent.efa8dfde2d391d3c0918f51c22e8d71f.svg",
     "static/media/tweeter.svg": "/coach-the-experience/static/media/tweeter.54c555409f74d94b3a1a2bdee6543f96.svg",
+    "static/media/youtube-transparent.svg": "/coach-the-experience/static/media/youtube-transparent.4a7872400e15b01a344025e3511fc43e.svg",
     "static/media/youtube.svg": "/coach-the-experience/static/media/youtube.513336585568fce907b37df913925b8c.svg",
     "index.html": "/coach-the-experience/index.html",
+    "static/media/telegram-transparent.svg": "/coach-the-experience/static/media/telegram-transparent.ede7c147c16f145fdbc601f1ffb9695f.svg",
     "static/media/telegram.svg": "/coach-the-experience/static/media/telegram.960e6eceef34012f48971da563f730b7.svg",
     "static/media/catamaran 1.svg": "/coach-the-experience/static/media/catamaran 1.984dcebb4743d0f1d9601177b76cbee5.svg",
     "static/media/fb transparent.svg": "/coach-the-experience/static/media/fb transparent.26e0f931f086f7ab35d6faf0863750ae.svg",
     "static/media/fb.svg": "/coach-the-experience/static/media/fb.0e65f7a264a4edca4e9633add44c153e.svg",
     "static/media/burger-btn.svg": "/coach-the-experience/static/media/burger-btn.acbe0fb53b14606805134d98f7932750.svg",
     "static/media/close-btn.svg": "/coach-the-experience/static/media/close-btn.a7f2a362bea3a77e67953d7418d66a9a.svg",
-    "main.04591692.css.map": "/coach-the-experience/static/css/main.04591692.css.map",
-    "main.8280194b.js.map": "/coach-the-experience/static/js/main.8280194b.js.map",
+    "main.74f4f4f2.css.map": "/coach-the-experience/static/css/main.74f4f4f2.css.map",
+    "main.21be41cd.js.map": "/coach-the-experience/static/js/main.21be41cd.js.map",
     "787.fc9991df.chunk.js.map": "/coach-the-experience/static/js/787.fc9991df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04591692.css",
-    "static/js/main.8280194b.js"
+    "static/css/main.74f4f4f2.css",
+    "static/js/main.21be41cd.js"
   ]
 }
