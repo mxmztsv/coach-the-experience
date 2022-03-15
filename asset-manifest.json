@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coach-the-experience/static/css/main.15985546.css",
-    "main.js": "/coach-the-experience/static/js/main.1d1ab6ad.js",
+    "main.css": "/coach-the-experience/static/css/main.04591692.css",
+    "main.js": "/coach-the-experience/static/js/main.8280194b.js",
     "static/js/787.fc9991df.chunk.js": "/coach-the-experience/static/js/787.fc9991df.chunk.js",
     "static/media/logo-ANDROMEDA-crown-rgb-for-white.png": "/coach-the-experience/static/media/logo-ANDROMEDA-crown-rgb-for-white.bf34a528eb793f1cf702.png",
     "static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.png": "/coach-the-experience/static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.89ca0a78f6b30d72fac8.png",
@@ -121,12 +121,14 @@
     "static/media/catamaran 1.svg": "/coach-the-experience/static/media/catamaran 1.984dcebb4743d0f1d9601177b76cbee5.svg",
     "static/media/fb transparent.svg": "/coach-the-experience/static/media/fb transparent.26e0f931f086f7ab35d6faf0863750ae.svg",
     "static/media/fb.svg": "/coach-the-experience/static/media/fb.0e65f7a264a4edca4e9633add44c153e.svg",
-    "main.15985546.css.map": "/coach-the-experience/static/css/main.15985546.css.map",
-    "main.1d1ab6ad.js.map": "/coach-the-experience/static/js/main.1d1ab6ad.js.map",
+    "static/media/burger-btn.svg": "/coach-the-experience/static/media/burger-btn.acbe0fb53b14606805134d98f7932750.svg",
+    "static/media/close-btn.svg": "/coach-the-experience/static/media/close-btn.a7f2a362bea3a77e67953d7418d66a9a.svg",
+    "main.04591692.css.map": "/coach-the-experience/static/css/main.04591692.css.map",
+    "main.8280194b.js.map": "/coach-the-experience/static/js/main.8280194b.js.map",
     "787.fc9991df.chunk.js.map": "/coach-the-experience/static/js/787.fc9991df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15985546.css",
-    "static/js/main.1d1ab6ad.js"
+    "static/css/main.04591692.css",
+    "static/js/main.8280194b.js"
   ]
 }
