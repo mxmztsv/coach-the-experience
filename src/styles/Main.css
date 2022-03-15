@@ -70,6 +70,14 @@
     color: #FFFFFF;
 }
 
+.book-btn:hover {
+    background: #FFFFFF;
+    color: #D14D09;
+    border-color: #D14D09;
+    border-width: 2px;
+    border-style: solid;
+}
+
 @media (max-width: 400px) {
     .main__title {
         font-size: 42px;

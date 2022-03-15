@@ -60,6 +60,10 @@
     margin: 0 12px;
 }
 
+.header__socials__img {
+    width: 24px;
+}
+
 .burger-brn__wrapper {
     position: absolute;
     right: 0;

@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import {Hidden} from "@mui/material";
 
 import img from '../assets/img/image 28.png'
+import * as SocialLinks from "../configs/SocialLinks";
 
 export const Booking = () => {
 
@@ -17,7 +18,10 @@ export const Booking = () => {
                             <Grid item md={5} xs={12}>
                                 <div className="booking__card__btn__wrapper">
                                     <div className="book-btn__wrapper">
-                                        <button className="book-btn">Book Now</button>
+                                        <button onClick={() => {
+                                            window.location.href = SocialLinks.FORM
+                                        }}
+                                                className="book-btn">Book Now</button>
                                     </div>
                                 </div>
                             </Grid>
@@ -37,7 +41,10 @@ export const Booking = () => {
                             <Grid item md={5} xs={12}>
                                 <div className="booking__card__btn__wrapper">
                                     <div className="book-btn__wrapper">
-                                        <button className="book-btn">Book Now</button>
+                                        <button onClick={() => {
+                                                window.location.href = SocialLinks.FORM
+                                            }}
+                                                className="book-btn">Book Now</button>
                                     </div>
                                 </div>
                             </Grid>

@@ -36,3 +36,33 @@
 
     color: #FFFFFF;
 }
+
+.burger-menu__content {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    /*height: 92%;*/
+}
+
+.burger-menu__footer__text {
+
+}
+
+.burger-menu__footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.burger-menu__footer__text {
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

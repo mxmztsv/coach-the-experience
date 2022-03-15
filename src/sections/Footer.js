@@ -7,7 +7,8 @@ import fb from '../assets/svg/fb.svg'
 import telegram from '../assets/svg/telegram.svg'
 import mail from '../assets/svg/mail.svg'
 import youtube from '../assets/svg/youtube.svg'
-import tweeter from '../assets/svg/tweeter.svg'
+import twitter from '../assets/svg/tweeter.svg'
+import * as SocialLinks from "../configs/SocialLinks";
 
 export const Footer = () => {
 
@@ -22,24 +23,24 @@ export const Footer = () => {
                     <a href="#trip-itinerary" className="footer__link">Trip Itinerary</a>
                 </div>
                 <div className="footer__social__row">
-                    <a href="#" className="footer__social__link">
+                    <a href={SocialLinks.INSTAGRAM} className="footer__social__link">
                         <img src={inst} className="footer__social__img"/>
                     </a>
-                    <a href="#" className="footer__social__link">
-                        <img src={fb} className="footer__social__img"/>
+                    {/*<a href="#" className="footer__social__link">*/}
+                    {/*    <img src={fb} className="footer__social__img"/>*/}
+                    {/*</a>*/}
+                    <a href={SocialLinks.TWITTER} className="footer__social__link">
+                        <img src={twitter} className="footer__social__img"/>
                     </a>
-                    <a href="#" className="footer__social__link">
-                        <img src={tweeter} className="footer__social__img"/>
-                    </a>
-                    <a href="#" className="footer__social__link">
+                    <a href={SocialLinks.TELEGRAM} className="footer__social__link">
                         <img src={telegram} className="footer__social__img"/>
                     </a>
-                    <a href="#" className="footer__social__link">
+                    <a href={SocialLinks.YOUTUBE} className="footer__social__link">
                         <img src={youtube} className="footer__social__img"/>
                     </a>
-                    <a href="#" className="footer__social__link">
-                        <img src={mail} className="footer__social__img"/>
-                    </a>
+                    {/*<a href="#" className="footer__social__link">*/}
+                    {/*    <img src={mail} className="footer__social__img"/>*/}
+                    {/*</a>*/}
                 </div>
                 <p className="footer__text">
                     © 2022 Coach K Experience. All Rights Reserved.

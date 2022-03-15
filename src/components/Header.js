@@ -4,15 +4,18 @@ import Container from '@mui/material/Container';
 import {Hidden} from "@mui/material";
 
 import logo from '../assets/svg/coachk-the-experience.svg'
-import inst from '../assets/svg/inst transparent.svg'
+import inst from '../assets/svg/inst-transparent.svg'
 import fb from '../assets/svg/fb transparent.svg'
-import tweeter from '../assets/svg/tweeter transparent.svg'
+import twitter from '../assets/svg/twitter-transparent.svg'
+import youtube from '../assets/svg/youtube-transparent.svg'
+import telegram from '../assets/svg/telegram-transparent.svg'
 import burger from '../assets/svg/burger-btn.svg'
 import {BurgerMenu} from "./BurgerMenu";
+import * as SocialLinks from "../configs/SocialLinks";
 
 export const Header = () => {
 
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     const burgerButtonHandler = () => {
         setIsOpen(!isOpen)
@@ -35,14 +38,17 @@ export const Header = () => {
                                 <li><a href="#trip-itinerary">Trip Itinerary</a></li>
                             </ul>
                             <div className="header__socials">
-                                <a href="#" className="header__socials__link">
+                                <a href={SocialLinks.INSTAGRAM} className="header__socials__link">
                                     <img src={inst} className="header__socials__img"/>
                                 </a>
-                                <a href="#" className="header__socials__link">
-                                    <img src={fb} className="header__socials__img"/>
+                                <a href={SocialLinks.TELEGRAM} className="header__socials__link">
+                                    <img src={telegram} className="header__socials__img"/>
                                 </a>
-                                <a href="#" className="header__socials__link">
-                                    <img src={tweeter} className="header__socials__img"/>
+                                <a href={SocialLinks.TWITTER} className="header__socials__link">
+                                    <img src={twitter} className="header__socials__img"/>
+                                </a>
+                                <a href={SocialLinks.YOUTUBE} className="header__socials__link">
+                                    <img src={youtube} className="header__socials__img"/>
                                 </a>
                             </div>
                         </div>
