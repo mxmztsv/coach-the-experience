@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.561b2029.css",
+    "main.css": "/static/css/main.1fb4c868.css",
     "main.js": "/static/js/main.50c9168c.js",
     "static/js/787.fc9991df.chunk.js": "/static/js/787.fc9991df.chunk.js",
     "static/media/logo-ANDROMEDA-crown-rgb-for-white.png": "/static/media/logo-ANDROMEDA-crown-rgb-for-white.bf34a528eb793f1cf702.png",
@@ -125,12 +125,12 @@
     "static/media/fb.svg": "/static/media/fb.0e65f7a264a4edca4e9633add44c153e.svg",
     "static/media/burger-btn.svg": "/static/media/burger-btn.acbe0fb53b14606805134d98f7932750.svg",
     "static/media/close-btn.svg": "/static/media/close-btn.a7f2a362bea3a77e67953d7418d66a9a.svg",
-    "main.561b2029.css.map": "/static/css/main.561b2029.css.map",
+    "main.1fb4c868.css.map": "/static/css/main.1fb4c868.css.map",
     "main.50c9168c.js.map": "/static/js/main.50c9168c.js.map",
     "787.fc9991df.chunk.js.map": "/static/js/787.fc9991df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.561b2029.css",
+    "static/css/main.1fb4c868.css",
     "static/js/main.50c9168c.js"
   ]
 }

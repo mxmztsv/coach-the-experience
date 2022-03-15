@@ -30,6 +30,7 @@
     letter-spacing: 0.055em;
 
     color: #FFFFFF;
+    text-shadow: 0px 0px 20px rgba(12, 35, 94, .2);
 }
 
 .trip__day__title__number {
