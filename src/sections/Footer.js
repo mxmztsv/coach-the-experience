@@ -21,7 +21,7 @@ export const Footer = () => {
                     <a href="#sponsors" className="footer__link">Sponsors</a>
                     <a href="#trip-itinerary" className="footer__link">Trip Itinerary</a>
                 </div>
-                <div className="footer__row">
+                <div className="footer__social__row">
                     <a href="#" className="footer__social__link">
                         <img src={inst} className="footer__social__img"/>
                     </a>

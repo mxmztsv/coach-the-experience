@@ -35,11 +35,6 @@
     justify-content: center;
 }
 
-.hunt__card__row {
-    display: flex;
-    flex-direction: row;
-}
-
 .hunt__card__title {
     font-family: 'Poppins Bold', sans-serif;
     font-style: normal;
@@ -93,4 +88,33 @@
     margin: 50px;
 
     color: #000000;
+}
+
+@media (max-width: 900px) {
+    .hunt__card__title {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    .hunt__card_red {
+        box-shadow: none;
+        height: 250px;
+        margin: 0;
+    }
+
+    .hunt__card_blue {
+        box-shadow: none;
+        height: 250px;
+        margin: 0;
+    }
+
+    .hunt__card_green {
+        box-shadow: none;
+        height: 250px;
+        margin: 0;
+    }
+
+    .hunt__text {
+        margin: 30px 0;
+    }
 }

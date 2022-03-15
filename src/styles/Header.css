@@ -1,4 +1,4 @@
-header {
+.header {
     background: linear-gradient(180deg, rgba(7, 23, 63, 1) 0%, rgba(12, 35, 94, 1));
     height: 62px;
     text-align: center;
@@ -58,4 +58,34 @@ header {
 
 .header__socials__link {
     margin: 0 12px;
+}
+
+.burger-brn__wrapper {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    z-index: 9999;
+}
+
+.burger-btn {
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .header__logo__wrapper {
+        width: 100%;
+        top: 3px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header__logo {
+        height: 44px;
+    }
 }

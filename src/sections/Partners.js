@@ -61,243 +61,243 @@ export const Partners = () => {
                 </h2>
                 <div className="partners__rows__wrapper">
                     <div className="partners__row">
-                        <Grid container columns={10}>
-                            <Grid item sm={2} lg={1} xs={3}>
+                        <Grid container columns={30}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={axxii} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={andromeda} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={artem} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={avarta} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={yom} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={freeway} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={finxflo} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={gamifi} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={gunzilla} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={synesis} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={2} xs={3}>
+                            <Grid item sm={15} lg={6} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={ALPHASTONE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={BEEMUP} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={BLOCKBANK} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={UKISS} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={GHAF} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={GREENHEART} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={LATITUDE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={SPLYT} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={CORNUCOPIAS} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={COSMICGUILD} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={CRYOWAR} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={CYBERTRADE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={netvrk} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={IXSWAP} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={ELUMIA} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={HOLORIDE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={MASSBIT} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={MASTER} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={SUPRAORACLES} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={DOPAMINE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={FERRUM} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={FOMOCRAFT} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={YIELDAPP} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={MATRIXLABS} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={METAVEST} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={MOBIE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={PAID} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={STARLAUNCH} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={PARTISIA} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={PAXWORLD} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={PINKNODE} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={play} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={bitpasean} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={PRASAGA} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={RITESTREAM} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={SATOR} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={1} xs={3}>
+                            <Grid item sm={15} lg={3} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={SHEESHA} className="partners__item"/>
                                 </div>
                             </Grid>
-                            <Grid item sm={2} lg={2} xs={3}>
+                            <Grid item sm={15} lg={6} xs={10}>
                                 <div className="partners__item__wrapper">
                                     <img src={WORLDMOBILE} className="partners__item"/>
                                 </div>

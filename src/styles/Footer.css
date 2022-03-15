@@ -14,6 +14,13 @@ footer {
     justify-content: center;
 }
 
+.footer__social__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer__text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -44,4 +51,10 @@ footer {
 
 .footer__social__link {
     margin: 12px;
+}
+
+@media (max-width: 600px) {
+    .footer__row {
+        flex-direction: column;
+    }
 }
