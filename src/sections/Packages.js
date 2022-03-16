@@ -38,7 +38,7 @@ export const Packages = () => {
                         <PackageCardItem persons={1} price="$6,000" discount="-20%" originalPrice="$4,800"/>
                         <PackageCardItem persons={2} price="$11,000" discount="-20%" originalPrice="$8,800"/>
                     </PackageCard>
-                    <PackageCard type="platinum" text="40 Junior Suite">
+                    <PackageCard type="platinum" text="40 Junior Suite in limited supply">
                         <PackageCardItem persons={1} price="$7,500" discount="-20%" originalPrice="$6,000"/>
                         <PackageCardItem persons={2} price="$12,500" discount="-20%" originalPrice="$10,000"/>
                     </PackageCard>
@@ -58,14 +58,14 @@ export const Packages = () => {
                             >
                                 <SwiperSlide>
                                     <PackageCard type="gold" text="75 Guest Rooms (Run of House)">
-                                        <PackageCardItem persons={1} price="$8,000"/>
-                                        <PackageCardItem persons={2} price="$14,400"/>
+                                        <PackageCardItem persons={1} price="$6,000" discount="-20%" originalPrice="$4,800"/>
+                                        <PackageCardItem persons={2} price="$11,000" discount="-20%" originalPrice="$8,800"/>
                                     </PackageCard>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <PackageCard type="platinum" text="40 Junior Suite">
-                                        <PackageCardItem persons={1} price="$9,600"/>
-                                        <PackageCardItem persons={2} price="$16,000"/>
+                                    <PackageCard type="platinum" text="40 Junior Suite in limited supply">
+                                        <PackageCardItem persons={1} price="$7,500" discount="-20%" originalPrice="$6,000"/>
+                                        <PackageCardItem persons={2} price="$12,500" discount="-20%" originalPrice="$10,000"/>
                                     </PackageCard>
                                 </SwiperSlide>
                             </Swiper>
