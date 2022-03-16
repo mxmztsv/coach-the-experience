@@ -1,8 +1,7 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import {Hidden} from "@mui/material";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -35,7 +34,6 @@ import lotus_yellow from '../assets/svg/lotus-flower 1.svg'
 import fighter from '../assets/svg/fighter 1.svg'
 
 
-
 export const Activities = () => {
 
 
@@ -43,32 +41,36 @@ export const Activities = () => {
         <section className="activities">
             <div className="activities__header">
                 <Hidden mdDown>
-                <Container>
-                <div className="activities__header__title__wrapper"  id="activities">
-                    <h2 className="title">Activities</h2>
-                    <div className="activities__header__subtitle__wrapper">
-                        <p className="activities__header__subtitle">
-                            The Coach K Experience is a once in a lifetime networking event, with some of the brightest
-                            minds in the Cryptocurrency and Blockchain ecosystem.
-                            We mix networking, experiences, and team building to create lasting relationships with:
-                        </p>
-                    </div>
-                </div>
-                </Container>
+                    <Container>
+                        <div className="activities__header__title__wrapper" id="activities">
+                            <h2 className="title">Activities</h2>
+                            <div className="activities__header__subtitle__wrapper">
+                                <p className="activities__header__subtitle">
+                                    The Coach K Experience is a once in a lifetime networking event, with some of the
+                                    brightest
+                                    minds in the Cryptocurrency and Blockchain ecosystem.
+                                    We mix networking, experiences, and team building to create lasting relationships
+                                    with:
+                                </p>
+                            </div>
+                        </div>
+                    </Container>
                 </Hidden>
                 <Hidden mdUp>
-                <Container disableGutters>
-                <div className="activities__header__title__wrapper"  id="activities">
-                    <h2 className="title">Activities</h2>
-                    <div className="activities__header__subtitle__wrapper">
-                        <p className="activities__header__subtitle">
-                            The Coach K Experience is a once in a lifetime networking event, with some of the brightest
-                            minds in the Cryptocurrency and Blockchain ecosystem.
-                            We mix networking, experiences, and team building to create lasting relationships with:
-                        </p>
-                    </div>
-                </div>
-                </Container>
+                    <Container disableGutters>
+                        <div className="activities__header__title__wrapper" id="activities">
+                            <h2 className="title">Activities</h2>
+                            <div className="activities__header__subtitle__wrapper">
+                                <p className="activities__header__subtitle">
+                                    The Coach K Experience is a once in a lifetime networking event, with some of the
+                                    brightest
+                                    minds in the Cryptocurrency and Blockchain ecosystem.
+                                    We mix networking, experiences, and team building to create lasting relationships
+                                    with:
+                                </p>
+                            </div>
+                        </div>
+                    </Container>
                 </Hidden>
             </div>
             <Hidden smDown>

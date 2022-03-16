@@ -231,4 +231,9 @@
     .activities__header__subtitle__wrapper {
         margin-bottom: 20px;
     }
+
+    .activities__header {
+        height: 500px;
+        width: 100%;
+    }
 }
