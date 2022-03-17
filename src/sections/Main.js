@@ -19,11 +19,12 @@ export const Main = () => {
                     <h1 className="main__title">Le Meridien</h1>
                     <h1 className="main__title">Phuket</h1>
                     <p className="main__subtitle">Discover Le Meridien Phuket Beach Resort</p>
+                    <p className="main__date">May 9 - May 13</p>
                     <button className="book-btn" onClick={
                         async () => {
-                            let link = 'https://script.google.com/macros/s/AKfycbw7DB7AQkVWxWszfGb6VW3gkaGLZXNyCSOsZA_ufZi9nH1zw5tVsck-tK6T-X-uBvLhrg/exec'
-                            window.location.href = `${link}?p1=hello&p2=world&p3=!`
-                            // window.location.href = SocialLinks.FORM
+                            // let link = 'https://script.google.com/macros/s/AKfycbw7DB7AQkVWxWszfGb6VW3gkaGLZXNyCSOsZA_ufZi9nH1zw5tVsck-tK6T-X-uBvLhrg/exec'
+                            // window.location.href = `${link}?p1=hello&p2=world&p3=!`
+                            window.location.href = SocialLinks.FORM
                             // const response = await fetch('https://script.google.com/macros/s/AKfycbyAfZb9wbd-Jt-aL2JuNqPQwoQwj1iL7Fw8hqzA4Ys2rKbtSutfO_yuS4qOoFAPmlY0Hg/exec?p1=hello&p2=csads&p3=ascvds')
                             // console.log(response)
 

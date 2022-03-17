@@ -16,6 +16,21 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 32px;
+    margin-bottom: 0;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
+
+.main__date {
+    font-family: 'Poppins Semi-bold', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0 20px 0;
     /* identical to box height, or 178% */
 
 
