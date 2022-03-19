@@ -15,7 +15,9 @@ export const BurgerMenu = ({ burgerButtonHandler }) => {
         <div className="burger-menu">
             <div className="burger-menu__header">
                 <div className="header__logo__wrapper">
-                    <img className="header__logo" src={logo}/>
+                    <a href="/#" onClick={burgerButtonHandler}>
+                        <img className="header__logo" src={logo}/>
+                    </a>
                 </div>
                 <div className="burger-brn__wrapper">
                     <button onClick={burgerButtonHandler} className="burger-btn">

@@ -59,7 +59,9 @@ export const Header = ({ bookingScreenMode = false }) => {
 
                 <Hidden mdUp>
                     <div className="header__logo__wrapper">
-                        <img className="header__logo" src={logo}/>
+                        <a href="/#">
+                            <img className="header__logo" src={logo}/>
+                        </a>
                     </div>
                     <div className="burger-brn__wrapper">
                         <button onClick={burgerButtonHandler} className="burger-btn">

@@ -14,7 +14,7 @@ import {Footer} from "../sections/Footer";
 import {submitForm} from "../controllers/FormController";
 
 //TODO: автокомплит не отправляется?
-
+//TODO: валидация согласия
 export const BookingForm = () => {
 
     const {
