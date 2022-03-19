@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5804689.css",
-    "main.js": "/static/js/main.e3c14d89.js",
+    "main.css": "/static/css/main.1d2fe21d.css",
+    "main.js": "/static/js/main.31b7efb6.js",
     "static/js/787.fc9991df.chunk.js": "/static/js/787.fc9991df.chunk.js",
     "static/media/logo-ANDROMEDA-crown-rgb-for-white.png": "/static/media/logo-ANDROMEDA-crown-rgb-for-white.bf34a528eb793f1cf702.png",
     "static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.png": "/static/media/logo-LEGENDS-OF-ELUMIA-crown-rgb-for-white.89ca0a78f6b30d72fac8.png",
     "static/media/Cyber 1.png": "/static/media/Cyber 1.22f2b12c82527d0cf61d.png",
     "static/media/logo-GAMIFI-push-for-white.png": "/static/media/logo-GAMIFI-push-for-white.64a9c2f92afe3fc87ad6.png",
     "static/media/main-bg.jpg": "/static/media/main-bg.9dd58f88f2e3734cd254.jpg",
+    "static/media/booking-bg.png": "/static/media/booking-bg.54b0ea6af1964536123a.png",
     "static/media/massage-bg.png": "/static/media/massage-bg.8878563e050326b801a8.png",
     "static/media/baloons.jpg": "/static/media/baloons.f766612e5681c9c1d320.jpg",
     "static/media/logo-CORNUCOPIAS-push-for-white.png": "/static/media/logo-CORNUCOPIAS-push-for-white.ec26ce25af6f49ff8f5f.png",
@@ -96,6 +97,7 @@
     "static/media/boat 1.svg": "/static/media/boat 1.8dce2d8982f5fb32e0c564a2e494e8f7.svg",
     "static/media/atv.svg": "/static/media/atv.4785fb609603b4c4546064fcbc3ee6c1.svg",
     "static/media/bag.svg": "/static/media/bag.a8e3b4440bd5da213237f53cebce0bf0.svg",
+    "static/media/warning-2 1.svg": "/static/media/warning-2 1.c1cf7f43d994df0acd72e591eae54e94.svg",
     "static/media/fighter 1.svg": "/static/media/fighter 1.a78543fdbb08559efe17a52f86669259.svg",
     "static/media/cart.svg": "/static/media/cart.a18a47dbe45963767fd12b7be377e1be.svg",
     "static/media/lotus-flower 1.svg": "/static/media/lotus-flower 1.78cb804d2917ec60085e54564abb34e1.svg",
@@ -125,12 +127,12 @@
     "static/media/fb.svg": "/static/media/fb.0e65f7a264a4edca4e9633add44c153e.svg",
     "static/media/burger-btn.svg": "/static/media/burger-btn.acbe0fb53b14606805134d98f7932750.svg",
     "static/media/close-btn.svg": "/static/media/close-btn.a7f2a362bea3a77e67953d7418d66a9a.svg",
-    "main.b5804689.css.map": "/static/css/main.b5804689.css.map",
-    "main.e3c14d89.js.map": "/static/js/main.e3c14d89.js.map",
+    "main.1d2fe21d.css.map": "/static/css/main.1d2fe21d.css.map",
+    "main.31b7efb6.js.map": "/static/js/main.31b7efb6.js.map",
     "787.fc9991df.chunk.js.map": "/static/js/787.fc9991df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5804689.css",
-    "static/js/main.e3c14d89.js"
+    "static/css/main.1d2fe21d.css",
+    "static/js/main.31b7efb6.js"
   ]
 }
