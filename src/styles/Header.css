@@ -9,6 +9,17 @@
     width: 100%;
 }
 
+.header_bright {
+    background: linear-gradient(180deg, rgba(39, 71, 112, 1) 0%, rgba(58, 109, 173, 1));
+    height: 62px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
 .header__wrapper {
     display: flex;
     flex-direction: row;

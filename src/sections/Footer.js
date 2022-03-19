@@ -16,11 +16,11 @@ export const Footer = () => {
         <footer className="footer">
             <Container>
                 <div className="footer__row">
-                    <a href="#packages" className="footer__link">Room Type</a>
-                    <a href="#what-is-happening" className="footer__link">What Is Happening ?</a>
-                    <a href="#activities" className="footer__link">Activities</a>
-                    <a href="#sponsors" className="footer__link">Sponsors</a>
-                    <a href="#trip-itinerary" className="footer__link">Trip Itinerary</a>
+                    <a href="/#packages" className="footer__link">Room Type</a>
+                    <a href="/#what-is-happening" className="footer__link">What Is Happening ?</a>
+                    <a href="/#activities" className="footer__link">Activities</a>
+                    <a href="/#sponsors" className="footer__link">Sponsors</a>
+                    <a href="/#trip-itinerary" className="footer__link">Trip Itinerary</a>
                 </div>
                 <div className="footer__social__row">
                     <a href={SocialLinks.INSTAGRAM} className="footer__social__link">

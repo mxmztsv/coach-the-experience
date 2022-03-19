@@ -25,11 +25,11 @@ export const BurgerMenu = ({ burgerButtonHandler }) => {
             </div>
             <div className="burger-menu__content">
                 <ul className="burger-menu__list">
-                    <li><a href="#packages" onClick={burgerButtonHandler}>Room Type</a></li>
-                    <li><a href="#what-is-happening" onClick={burgerButtonHandler}>What Is Happening ?</a></li>
-                    <li><a href="#activities" onClick={burgerButtonHandler}>Activities</a></li>
-                    <li><a href="#sponsors" onClick={burgerButtonHandler}>Sponsors</a></li>
-                    <li><a href="#trip-itinerary" onClick={burgerButtonHandler}>Trip Itinerary</a></li>
+                    <li><a href="/#packages" onClick={burgerButtonHandler}>Room Type</a></li>
+                    <li><a href="/#what-is-happening" onClick={burgerButtonHandler}>What Is Happening ?</a></li>
+                    <li><a href="/#activities" onClick={burgerButtonHandler}>Activities</a></li>
+                    <li><a href="/#sponsors" onClick={burgerButtonHandler}>Sponsors</a></li>
+                    <li><a href="/#trip-itinerary" onClick={burgerButtonHandler}>Trip Itinerary</a></li>
                 </ul>
                 <div className="burger-menu__footer">
                     <div className="footer__social__row">

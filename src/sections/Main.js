@@ -4,9 +4,11 @@ import Container from '@mui/material/Container';
 import {Hidden} from "@mui/material";
 import * as SocialLinks from "../configs/SocialLinks";
 import location from '../assets/svg/location 1.svg'
+import {useNavigate} from "react-router-dom";
 
 export const Main = () => {
 
+    let navigate = useNavigate()
 
     return (
         <section className="main">
@@ -22,12 +24,8 @@ export const Main = () => {
                     <p className="main__date">May 9 - May 13</p>
                     <button className="book-btn" onClick={
                         async () => {
-                            // let link = 'https://script.google.com/macros/s/AKfycbw7DB7AQkVWxWszfGb6VW3gkaGLZXNyCSOsZA_ufZi9nH1zw5tVsck-tK6T-X-uBvLhrg/exec'
-                            // window.location.href = `${link}?p1=hello&p2=world&p3=!`
-                            window.location.href = SocialLinks.FORM
-                            // const response = await fetch('https://script.google.com/macros/s/AKfycbyAfZb9wbd-Jt-aL2JuNqPQwoQwj1iL7Fw8hqzA4Ys2rKbtSutfO_yuS4qOoFAPmlY0Hg/exec?p1=hello&p2=csads&p3=ascvds')
-                            // console.log(response)
-
+                            // window.location.href = SocialLinks.FORM
+                            navigate('/booking')
                         }
                     }>Book Now</button>
                 </div>

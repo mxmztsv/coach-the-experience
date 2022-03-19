@@ -13,7 +13,7 @@ import burger from '../assets/svg/burger-btn.svg'
 import {BurgerMenu} from "./BurgerMenu";
 import * as SocialLinks from "../configs/SocialLinks";
 
-export const Header = () => {
+export const Header = ({ bookingScreenMode = false }) => {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -23,19 +23,21 @@ export const Header = () => {
 
     return (
         <header>
-            <div className="header">
+            <div className={bookingScreenMode ? "header header_bright" : "header"}>
                 <Hidden mdDown>
                     <Container>
                         <div className="header__wrapper">
                             <div className="header__logo__wrapper">
-                                <img className="header__logo" src={logo}/>
+                                <a href="/#">
+                                    <img className="header__logo" src={logo}/>
+                                </a>
                             </div>
                             <ul className="header__navbar">
-                                <li><a href="#packages">Room Type</a></li>
-                                <li><a href="#what-is-happening">What Is Happening ?</a></li>
-                                <li><a href="#activities">Activities</a></li>
-                                <li><a href="#sponsors">Sponsors</a></li>
-                                <li><a href="#trip-itinerary">Trip Itinerary</a></li>
+                                <li><a href="/#packages">Room Type</a></li>
+                                <li><a href="/#what-is-happening">What Is Happening ?</a></li>
+                                <li><a href="/#activities">Activities</a></li>
+                                <li><a href="/#sponsors">Sponsors</a></li>
+                                <li><a href="/#trip-itinerary">Trip Itinerary</a></li>
                             </ul>
                             <div className="header__socials">
                                 <a href={SocialLinks.INSTAGRAM} className="header__socials__link">

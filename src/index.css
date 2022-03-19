@@ -21,6 +21,11 @@
 @import url('styles/Partners.css');
 @import url('styles/Footer.css');
 @import url('styles/BurgerMenu.css');
+@import url('styles/BookingScreen.css');
+@import url('styles/BookingBackground.css');
+@import url('styles/BookingForm.css');
+@import url('styles/FormField.css');
+@import url('styles/InputField.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';
@@ -67,6 +72,10 @@ body {
   text-align: center;
 
   color: #000000;
+}
+
+span {
+  font-family: 'Poppins', sans-serif !important;
 }
 
 @media (max-width: 600px) {
