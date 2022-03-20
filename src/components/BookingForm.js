@@ -12,10 +12,11 @@ import {FormControlLabelInput} from "./FormControlLabelInput";
 import warning from '../assets/svg/warning-2 1.svg'
 import {Footer} from "../sections/Footer";
 import {submitForm} from "../controllers/FormController";
+import {useNavigate} from "react-router-dom";
 
-//TODO: автокомплит не отправляется?
-//TODO: валидация согласия
 export const BookingForm = () => {
+
+    let navigate = useNavigate()
 
     const {
         register,
@@ -66,7 +67,7 @@ export const BookingForm = () => {
             "Require a quiet room": "Yes",
             "T-Shirt size": "XL",
             "Is interested in sponsoring the event": "No",
-            "Is agree to the terms and conditions": "Yes",
+            // "Is agree to the terms and conditions": "Yes",
             "Room Type": "Deluxe - 3 nights - $6000/1 Person - $11,000/2 people",
             "Other activity in the Crypto Space": "",
             "Venture Capital Fund": false,
@@ -98,12 +99,21 @@ export const BookingForm = () => {
             "Interest in Chill day at the resort": "Moderately interested",
             "Payment method": "USDT/USDC - ON BSC",
             "numberOfPeopleInTheRoom": "",
+            "agreement": false,
         }
     })
-    const onSubmit = (data) => {
+    const onSubmit = async (data) => {
         console.log(data)
-        const response = submitForm(data)
-        console.log('response', response)
+        let success
+        try {
+            success = await submitForm(data)
+        } catch (e) {
+            navigate('/error')
+        }
+        if (success === "Success") {
+            navigate('/thank-you')
+        }
+
     }
 
     return (
@@ -1462,16 +1472,26 @@ export const BookingForm = () => {
 
                             <FormField title={"I agree to the terms and conditions set forth in the waiver form above "}
                                        required>
+                                {/*<Controller*/}
+                                {/*    render={({field}) => (*/}
+                                {/*        <RadioGroup {...field}>*/}
+                                {/*            <FormControlLabel value="Yes" control={<Radio/>} label="Yes"/>*/}
+                                {/*            <FormControlLabel value="No" control={<Radio/>} label="No"/>*/}
+                                {/*        </RadioGroup>*/}
+                                {/*    )}*/}
+                                {/*    name="Is agree to the terms and conditions"*/}
+                                {/*    control={control}*/}
+                                {/*/>*/}
                                 <Controller
-                                    render={({field}) => (
-                                        <RadioGroup {...field}>
-                                            <FormControlLabel value="Yes" control={<Radio/>} label="Yes"/>
-                                            <FormControlLabel value="No" control={<Radio/>} label="No"/>
-                                        </RadioGroup>
-                                    )}
-                                    name="Is agree to the terms and conditions"
+                                    name="agreement"
                                     control={control}
+                                    rules={{required: true}}
+                                    // render={({ field }) => <Checkbox {...field} />}
+                                    render={({field}) => <FormControlLabel control={<Checkbox {...field} />}
+                                                                           label="Yes I agree"/>}
                                 />
+                                {errors.agreement &&
+                                    <p className="form-field__error">Agreement is required.</p>}
                             </FormField>
 
                             <div className="booking-form__info">

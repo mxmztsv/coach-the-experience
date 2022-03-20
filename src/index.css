@@ -26,6 +26,7 @@
 @import url('styles/BookingForm.css');
 @import url('styles/FormField.css');
 @import url('styles/InputField.css');
+@import url('styles/ThxForSubmittingScreen.css');
 
 @font-face {
   font-family: 'Poppins Semi-bold';

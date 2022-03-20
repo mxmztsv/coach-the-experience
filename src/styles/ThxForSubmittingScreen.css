@@ -1,0 +1,38 @@
+.thx-for-submit {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/img/booking-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+}
+
+.thx-for-submit__card {
+    background: #FFFFFF;
+    border-radius: 30px 0px 30px 30px;
+    /*width: 100%;*/
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 30px 10px;
+}
+
+@media (max-width: 600px) {
+    .thx-for-submit__card {
+        background: #FFFFFF;
+        border-radius: 30px 0px 30px 30px;
+        /*width: 100%;*/
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px 30px 10px;
+    }
+}

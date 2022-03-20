@@ -223,4 +223,8 @@
     .booking-form__wrapper {
         margin-top: 100px;
     }
+
+    .booking-form__info__link {
+        font-size: 12px;
+    }
 }

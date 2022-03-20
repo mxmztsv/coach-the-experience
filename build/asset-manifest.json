@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.12807430.css",
-    "main.js": "/static/js/main.9c414056.js",
+    "main.css": "/static/css/main.9769a35d.css",
+    "main.js": "/static/js/main.9eb0eac3.js",
     "static/js/787.fc9991df.chunk.js": "/static/js/787.fc9991df.chunk.js",
     "static/media/logo-GAMIFI-push-for-white.png": "/static/media/logo-GAMIFI-push-for-white.9dbf9887b457207fb1fd.png",
     "static/media/logo-CORNUCOPIAS-push-for-white.png": "/static/media/logo-CORNUCOPIAS-push-for-white.85d230d4a70a50397e77.png",
@@ -115,12 +115,12 @@
     "static/media/fb.svg": "/static/media/fb.0e65f7a264a4edca4e9633add44c153e.svg",
     "static/media/burger-btn.svg": "/static/media/burger-btn.acbe0fb53b14606805134d98f7932750.svg",
     "static/media/close-btn.svg": "/static/media/close-btn.a7f2a362bea3a77e67953d7418d66a9a.svg",
-    "main.12807430.css.map": "/static/css/main.12807430.css.map",
-    "main.9c414056.js.map": "/static/js/main.9c414056.js.map",
+    "main.9769a35d.css.map": "/static/css/main.9769a35d.css.map",
+    "main.9eb0eac3.js.map": "/static/js/main.9eb0eac3.js.map",
     "787.fc9991df.chunk.js.map": "/static/js/787.fc9991df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12807430.css",
-    "static/js/main.9c414056.js"
+    "static/css/main.9769a35d.css",
+    "static/js/main.9eb0eac3.js"
   ]
 }
