@@ -14,6 +14,9 @@ import {Footer} from "../sections/Footer";
 import {submitForm} from "../controllers/FormController";
 import {useNavigate} from "react-router-dom";
 
+
+// TODO: loader
+
 export const BookingForm = () => {
 
     let navigate = useNavigate()

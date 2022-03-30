@@ -20,21 +20,21 @@ export const ScavengerHunt = () => {
                 <h2 className="title">
                     Best Cryptocurrency Scavenger Hunt Ever!
                 </h2>
-                <Hidden mdDown>
+                {/*<Hidden mdDown>*/}
                     <div className="hunt__cards__row">
-                        <div className="hunt__card_red">
-                            <div className="hunt__card__row">
-                                <p className="hunt__card__title">
-                                    50%
-                                </p>
-                                <div className="hunt__card__img__wrapper">
-                                    <img src={dots} className="hunt__card__img"/>
-                                </div>
-                            </div>
-                            <p className="hunt__card__text">
-                                go to social impact initiatives and charities
-                            </p>
-                        </div>
+                        {/*<div className="hunt__card_red">*/}
+                        {/*    <div className="hunt__card__row">*/}
+                        {/*        <p className="hunt__card__title">*/}
+                        {/*            50%*/}
+                        {/*        </p>*/}
+                        {/*        <div className="hunt__card__img__wrapper">*/}
+                        {/*            <img src={dots} className="hunt__card__img"/>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*    <p className="hunt__card__text">*/}
+                        {/*        go to social impact initiatives and charities*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
                         <div className="hunt__card_blue">
                             <div className="hunt__card__row">
                                 <p className="hunt__card__title">
@@ -48,141 +48,141 @@ export const ScavengerHunt = () => {
                                 sponsor funds raised will go to the scavenger hunt
                             </p>
                         </div>
-                        <div className="hunt__card_green">
-                            <div className="hunt__card__row">
-                                <p className="hunt__card__title">
-                                    10%
-                                </p>
-                                <div className="hunt__card__img__wrapper">
-                                    <img src={dots} className="hunt__card__img"/>
-                                </div>
-                            </div>
-                            <p className="hunt__card__text">
-                                co-marketing work and branding
-                            </p>
-                        </div>
+                        {/*<div className="hunt__card_green">*/}
+                        {/*    <div className="hunt__card__row">*/}
+                        {/*        <p className="hunt__card__title">*/}
+                        {/*            10%*/}
+                        {/*        </p>*/}
+                        {/*        <div className="hunt__card__img__wrapper">*/}
+                        {/*            <img src={dots} className="hunt__card__img"/>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*    <p className="hunt__card__text">*/}
+                        {/*        co-marketing work and branding*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
                     </div>
-                </Hidden>
+                {/*</Hidden>*/}
 
-                <Hidden mdUp smDown>
-                    <Swiper
-                        spaceBetween={0}
-                        slidesPerView={2.5}
-                        // slidesPerView={'auto'}
-                        loop={false}
-                        centeredSlides={false}
-                        // setWrapperSize={true}
-                        grabCursor={true}
+                {/*<Hidden mdUp smDown>*/}
+                {/*    <Swiper*/}
+                {/*        spaceBetween={0}*/}
+                {/*        slidesPerView={2.5}*/}
+                {/*        // slidesPerView={'auto'}*/}
+                {/*        loop={false}*/}
+                {/*        centeredSlides={false}*/}
+                {/*        // setWrapperSize={true}*/}
+                {/*        grabCursor={true}*/}
 
-                    >
-                        <SwiperSlide>
-                            <div className="hunt__card_red">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        50%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    go to social impact initiatives and charities
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="hunt__card_blue">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        40%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    sponsor funds raised will go to the scavenger hunt
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="hunt__card_green">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        10%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    co-marketing work and branding
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                {/*    >*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_red">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        50%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    go to social impact initiatives and charities*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_blue">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        40%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    sponsor funds raised will go to the scavenger hunt*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_green">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        10%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    co-marketing work and branding*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*    </Swiper>*/}
 
-                </Hidden>
+                {/*</Hidden>*/}
 
-                <Hidden smUp>
-                    <Swiper
-                        spaceBetween={10}
-                        slidesPerView={1.2}
-                        // slidesPerView={'auto'}
-                        loop={false}
-                        centeredSlides={false}
-                        // setWrapperSize={true}
-                        grabCursor={true}
+                {/*<Hidden smUp>*/}
+                {/*    <Swiper*/}
+                {/*        spaceBetween={10}*/}
+                {/*        slidesPerView={1.2}*/}
+                {/*        // slidesPerView={'auto'}*/}
+                {/*        loop={false}*/}
+                {/*        centeredSlides={false}*/}
+                {/*        // setWrapperSize={true}*/}
+                {/*        grabCursor={true}*/}
 
-                    >
-                        <SwiperSlide>
-                            <div className="hunt__card_red">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        50%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    go to social impact initiatives and charities
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="hunt__card_blue">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        40%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    sponsor funds raised will go to the scavenger hunt
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="hunt__card_green">
-                                <div className="hunt__card__row">
-                                    <p className="hunt__card__title">
-                                        10%
-                                    </p>
-                                    <div className="hunt__card__img__wrapper">
-                                        <img src={dots} className="hunt__card__img"/>
-                                    </div>
-                                </div>
-                                <p className="hunt__card__text">
-                                    co-marketing work and branding
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                {/*    >*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_red">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        50%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    go to social impact initiatives and charities*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_blue">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        40%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    sponsor funds raised will go to the scavenger hunt*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*        <SwiperSlide>*/}
+                {/*            <div className="hunt__card_green">*/}
+                {/*                <div className="hunt__card__row">*/}
+                {/*                    <p className="hunt__card__title">*/}
+                {/*                        10%*/}
+                {/*                    </p>*/}
+                {/*                    <div className="hunt__card__img__wrapper">*/}
+                {/*                        <img src={dots} className="hunt__card__img"/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*                <p className="hunt__card__text">*/}
+                {/*                    co-marketing work and branding*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*        </SwiperSlide>*/}
+                {/*    </Swiper>*/}
 
-                </Hidden>
+                {/*</Hidden>*/}
 
 
                 <div className="hunt__text__wrapper">
