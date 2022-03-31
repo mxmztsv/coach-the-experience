@@ -18,7 +18,7 @@ export const ScavengerHunt = () => {
         <section className="hunt">
             <Container>
                 <h2 className="title">
-                    Best Cryptocurrency Scavenger Hunt Ever!
+                    Cryptocurrency Scavenger Hunt
                 </h2>
                 {/*<Hidden mdDown>*/}
                     <div className="hunt__cards__row">

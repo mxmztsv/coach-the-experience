@@ -1,14 +1,16 @@
 import React from 'react'
 import {Hidden} from "@mui/material";
 
-import photo1 from '../assets/img/1.jpeg'
-import photo2 from '../assets/img/2.jpeg'
-import photo3 from '../assets/img/3.jpeg'
-import photo4 from '../assets/img/4.jpeg'
-import photo5 from '../assets/img/5.jpeg'
-import photo6 from '../assets/img/6.jpeg'
-import photo7 from '../assets/img/7.jpeg'
-import photo8 from '../assets/img/8.jpeg'
+import photo1 from '../assets/img/slider_network/Brad Eqifi.jpeg'
+import photo2 from '../assets/img/slider_network/Chris Token events.jpeg'
+import photo3 from '../assets/img/slider_network/Cyrus Shopx.jpeg'
+import photo4 from '../assets/img/slider_network/Graham FreeWay.jpeg'
+import photo5 from '../assets/img/slider_network/James Finxflo.jpeg'
+import photo6 from '../assets/img/slider_network/Julian Ixswap.jpeg'
+import photo7 from '../assets/img/slider_network/Mathew Avarta.jpeg'
+import photo8 from '../assets/img/slider_network/Saeed Sheesha Finance .jpeg'
+import photo9 from '../assets/img/slider_network/Simon Elumia.jpeg'
+import photo10 from '../assets/img/slider_network/Tim Yield App.jpeg'
 // Import Swiper React components
 import {A11y, Navigation, Pagination, Scrollbar} from 'swiper';
 
@@ -38,11 +40,8 @@ export const Network = () => {
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     navigation
-                    // pagination={{ clickable: true }}
-                    // scrollbar={{ draggable: true }}
                     spaceBetween={30}
-                    slidesPerView={3}
-                    // slidesPerView={'auto'}
+                    slidesPerView={1.5}
                     loop={true}
                     centeredSlides={true}
                     setWrapperSize={true}
@@ -86,6 +85,16 @@ export const Network = () => {
                     <SwiperSlide>
                         <div className="photo-carousel__item">
                             <img src={photo8} className="photo-carousel__item__img"/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="photo-carousel__item">
+                            <img src={photo9} className="photo-carousel__item__img"/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="photo-carousel__item">
+                            <img src={photo10} className="photo-carousel__item__img"/>
                         </div>
                     </SwiperSlide>
 
@@ -97,8 +106,8 @@ export const Network = () => {
                     // navigation
                     // pagination={{ clickable: true }}
                     // scrollbar={{ draggable: true }}
-                    spaceBetween={30}
-                    slidesPerView={2}
+                    spaceBetween={10}
+                    slidesPerView={1.2}
                     // slidesPerView={'auto'}
                     loop={true}
                     centeredSlides={true}
@@ -143,6 +152,16 @@ export const Network = () => {
                     <SwiperSlide>
                         <div className="photo-carousel__item">
                             <img src={photo8} className="photo-carousel__item__img"/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="photo-carousel__item">
+                            <img src={photo9} className="photo-carousel__item__img"/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="photo-carousel__item">
+                            <img src={photo10} className="photo-carousel__item__img"/>
                         </div>
                     </SwiperSlide>
 
