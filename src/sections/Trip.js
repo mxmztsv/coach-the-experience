@@ -261,18 +261,6 @@ export const Trip = () => {
                                                     </div>
                                                 </td>
                                             </tr>
-                                            <tr valign='top'>
-                                                <td>
-                                                    <div className="trip__day__time__wrapper">
-                                                        <p className="trip__day__time">04:00</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div className="trip__day__event__wrapper">
-                                                        <p className="trip__day__event">Sunrise trip</p>
-                                                    </div>
-                                                </td>
-                                            </tr>
                                         </table>
                                     </div>
                                 </Grid>
@@ -304,7 +292,19 @@ export const Trip = () => {
                                                 </td>
                                                 <td>
                                                     <div className="trip__day__event__wrapper">
-                                                        <p className="trip__day__event">Brunch or Activities</p>
+                                                        <p className="trip__day__event">Brunch</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr valign='top'>
+                                                <td>
+                                                    <div className="trip__day__time__wrapper">
+                                                        <p className="trip__day__time_yellow">12:00</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div className="trip__day__event__wrapper">
+                                                        <p className="trip__day__event">Activities</p>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -416,18 +416,6 @@ export const Trip = () => {
                                                 <td>
                                                     <div className="trip__day__event__wrapper">
                                                         <p className="trip__day__event">Beach Party with International DJs Fire Show & Fireworks</p>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr valign='top'>
-                                                <td>
-                                                    <div className="trip__day__time__wrapper">
-                                                        <p className="trip__day__time">04:00</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div className="trip__day__event__wrapper">
-                                                        <p className="trip__day__event">Sunrise trip</p>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -695,18 +683,6 @@ export const Trip = () => {
                                                         </div>
                                                     </td>
                                                 </tr>
-                                                <tr valign='top'>
-                                                    <td>
-                                                        <div className="trip__day__time__wrapper">
-                                                            <p className="trip__day__time">04:00</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <div className="trip__day__event__wrapper">
-                                                            <p className="trip__day__event">Sunrise trip</p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
                                             </table>
                                         </div>
                                     </Grid>
@@ -745,7 +721,19 @@ export const Trip = () => {
                                                     </td>
                                                     <td>
                                                         <div className="trip__day__event__wrapper">
-                                                            <p className="trip__day__event">Brunch or Activities</p>
+                                                            <p className="trip__day__event">Brunch</p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr valign='top'>
+                                                    <td>
+                                                        <div className="trip__day__time__wrapper">
+                                                            <p className="trip__day__time_yellow">12:00</p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div className="trip__day__event__wrapper">
+                                                            <p className="trip__day__event">Activities</p>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -850,18 +838,6 @@ export const Trip = () => {
                                                     <td>
                                                         <div className="trip__day__event__wrapper">
                                                             <p className="trip__day__event">Beach Party with International DJs Fire Show & Fireworks</p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr valign='top'>
-                                                    <td>
-                                                        <div className="trip__day__time__wrapper">
-                                                            <p className="trip__day__time">04:00</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <div className="trip__day__event__wrapper">
-                                                            <p className="trip__day__event">Sunrise trip</p>
                                                         </div>
                                                     </td>
                                                 </tr>
