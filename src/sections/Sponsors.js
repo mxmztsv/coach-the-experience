@@ -12,6 +12,7 @@ import merchBlue from '../assets/svg/merch blue.svg'
 import merchOrange from '../assets/svg/merch orange.svg'
 import merchGreen from '../assets/svg/merch green.svg'
 import dots from "../assets/svg/scavenger-dots.svg";
+import {InfoCard} from "./InfoCard";
 
 export const Sponsors = () => {
 
@@ -25,21 +26,22 @@ export const Sponsors = () => {
                     Join our list of sponsors and use crypto to do good for the world! All our sponsors are donating 50% of the funds to charities
                 </p>
             </div>
-            <div className="hunt__cards__row">
-                <div className="hunt__card_green">
-                    <div className="hunt__card__row">
-                        <p className="hunt__card__title">
-                            50%
-                        </p>
-                        <div className="hunt__card__img__wrapper">
-                            <img src={dots} className="hunt__card__img"/>
-                        </div>
-                    </div>
-                    <p className="hunt__card__text">
-                        find raised will go to charities
-                    </p>
-                </div>
-            </div>
+            <InfoCard/>
+            {/*<div className="hunt__cards__row">*/}
+            {/*    <div className="hunt__card_green">*/}
+            {/*        <div className="hunt__card__row">*/}
+            {/*            <p className="hunt__card__title">*/}
+            {/*                50%*/}
+            {/*            </p>*/}
+            {/*            <div className="hunt__card__img__wrapper">*/}
+            {/*                <img src={dots} className="hunt__card__img"/>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        <p className="hunt__card__text">*/}
+            {/*            find raised will go to charities*/}
+            {/*        </p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             <p className="sponsors__merch__title">Merch</p>
             <div className="activities__header__subtitle__wrapper">
                 <p className="activities__header__subtitle">

@@ -36,7 +36,7 @@ export const LandingScreen = () => {
             <Massage/>
             <Trip/>
             <ScavengerHunt/>
-            <InfoCard/>
+            {/*<InfoCard/>*/}
             <Booking/>
             <Partners/>
             <Footer/>
