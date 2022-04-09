@@ -1,0 +1,143 @@
+.package__card_gold {
+    width: 250px;
+    background: linear-gradient(117.78deg, #FFBA00 34.55%, #FFE6A4 79.96%);
+    box-shadow: 0px 0px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 16px;
+}
+
+.package__card_platinum {
+    width: 250px;
+    background: linear-gradient(129.44deg, #FFFFFF 15.08%, #C4C4C4 79.72%);
+    box-shadow: 0px 0px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 16px;
+
+}
+
+.package__card_vip {
+    width: 250px;
+    background: linear-gradient(174.1deg, #4EFFCA 0.02%, #4E6CFF 17.82%);
+    box-shadow: 0px 0px 50px rgba(85, 85, 85, 0.14);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 16px;
+
+}
+
+.package__card__title__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.package__card__title__wrapper {
+    max-width: 85px;
+    display: flex;
+}
+
+.package__card__title_white {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 85px;
+    text-align: left;
+    /* or 133% */
+
+
+    color: #FFFFFF;
+}
+
+.package__card__title_black {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 85px;
+    text-align: left;
+    /* or 133% */
+
+
+    color: #2F2828;
+}
+
+.package__card__dots__wrapper {
+    width: 61px;
+    display: flex;
+}
+
+.package__card__text__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px 20px;*/
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 62px;
+}
+
+.package__card__text_gold {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    max-width: 115px;
+
+    color: #3E3C37;
+}
+
+.package__card__text_vip {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    max-width: 156px;
+
+    color: #4E6CFF;
+}
+
+.package__card__text_platinum {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    max-width: 150px;
+
+    color: #6C6C6C;
+}
+
+@media (max-width: 600px) {
+    .package__card_platinum {
+        box-shadow: none;
+    }
+
+    .package__card_gold {
+        box-shadow: none;
+    }
+
+    .package__card_vip {
+        box-shadow: none;
+    }
+}

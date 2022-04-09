@@ -1,0 +1,87 @@
+@import url('styles/Header.css');
+@import url('styles/Main.css');
+@import url('styles/TabPicker.css');
+@import url('styles/Packages.css');
+@import url('styles/PackageCard.css');
+@import url('styles/PackageCardItem.css');
+@import url('styles/TicketsCounter.css');
+@import url('styles/PhotoCarousel.css');
+@import url('styles/WhatIsHappening.css');
+@import url('styles/Coach.css');
+@import url('styles/Activities.css');
+@import url('styles/Network.css');
+@import url('styles/Sponsors.css');
+@import url('styles/SponsorPerks.css');
+@import url('styles/Charities.css');
+@import url('styles/Massage.css');
+@import url('styles/Trip.css');
+@import url('styles/ScavengerHunt.css');
+@import url('styles/InfoCard.css');
+@import url('styles/Booking.css');
+@import url('styles/Partners.css');
+@import url('styles/Footer.css');
+@import url('styles/BurgerMenu.css');
+@import url('styles/BookingScreen.css');
+@import url('styles/BookingBackground.css');
+@import url('styles/BookingForm.css');
+@import url('styles/FormField.css');
+@import url('styles/InputField.css');
+@import url('styles/ThxForSubmittingScreen.css');
+
+@font-face {
+  font-family: 'Poppins Semi-bold';
+  src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Variable.otf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: url('./assets/fonts/Poppins-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font-family: 'Poppins Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 63px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+span {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}

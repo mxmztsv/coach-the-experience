@@ -1,0 +1,73 @@
+.charities {
+    background: #F4F6F5;
+    padding: 30px 0 50px 0;
+}
+
+.charities__title {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+
+.charities__card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 22px rgba(116, 125, 147, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 400px;
+    min-height: 130px;
+    margin: 0 0 30px 0;
+}
+
+.charities__card__title_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.charities__card__title {
+    font-family: 'Poppins Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 10px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.charities__card__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.charities__card__img {
+    width: 52px;
+}
+
+@media (max-width: 650px) {
+    .charities__card {
+        height: 100%;
+    }
+    
+    .charities__title {
+        text-align: center;
+    }
+}
+
+

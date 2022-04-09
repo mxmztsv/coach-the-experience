@@ -1,0 +1,117 @@
+.main {
+    height: 900px;
+    max-height: 100vh;
+    background-size: 100% 100%;
+    width: 100%;
+    background-image: url("../assets/img/main-bg.jpg");
+    /*position: relative;*/
+    /*top: -16px;*/
+    display: flex;
+    align-items: center;
+}
+
+.main__subtitle {
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 0;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
+
+.main__date {
+    font-family: 'Poppins Semi-bold', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0 20px 0;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
+
+.main__subtitle-location__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main__subtitle-location__img {
+    margin-right: 7px;
+}
+
+.main__subtitle-location {
+    color: white;
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main__title {
+    color: white;
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+}
+
+.book-btn {
+    background: #D14D09;
+    border-radius: 8px;
+    padding: 10px 70px;
+    border-style: none;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    /* identical to box height, or 178% */
+
+
+    color: #FFFFFF;
+}
+
+.book-btn:hover {
+    background: #FFFFFF;
+    color: #D14D09;
+    border-color: #D14D09;
+    border-width: 2px;
+    border-style: solid;
+}
+
+@media (max-width: 400px) {
+    .main__title {
+        font-size: 42px;
+        line-height: 63px;
+    }
+
+    .main__subtitle {
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 600px) {
+    .book-btn {
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 80px;
+        align-items: flex-start;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,212 @@
+import React, {useState, useCallback} from 'react'
+import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
+import {Hidden} from "@mui/material";
+import {TabPicker} from "../components/TabPicker";
+import {PackageCard} from "../components/PackageCard";
+import {PackageCardItem} from "../components/PackageCardItem";
+import {TicketsCounter} from "../components/TicketsCounter";
+import { useWalletConnectorContext } from '../services/walletContext';
+
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+
+// Import Swiper styles
+import 'swiper/swiper.min.css'
+import 'swiper/modules/pagination/pagination.min.css'
+import 'swiper/modules/navigation/navigation.min.css'
+import 'swiper/modules/scrollbar/scrollbar.min.css'
+
+import ring from '../assets/svg/ring.svg'
+import car from '../assets/svg/car.svg'
+import cocktail from '../assets/svg/cocktail.svg'
+import party from '../assets/svg/party.svg'
+import kayak from '../assets/svg/kayak.svg'
+
+export const Packages = () => {
+
+    const { connect, payUsdt, address } = useWalletConnectorContext();
+
+    const [tab, setTab] = useState(2)
+    const handlePayUsdt = useCallback((amount) => {
+        if(!address) {
+            connect('MetaMask', 'Ethereum');
+            return;
+        }
+
+        payUsdt(amount);
+    }, [address, connect, payUsdt])
+
+    return (
+        <section className="packages" id="packages">
+            <TabPicker onClick={setTab}/>
+            {/*<div className="packages__bg">*/}
+                <Container disableGutters>
+            { tab === 1 ? (
+                <div className="packages__tab">
+                    <Hidden smDown>
+                    <div className="packages__tab__cards-row">
+                    <PackageCard type="gold" text="75 Guest Rooms (Run of House)">
+                        <PackageCardItem onClick={() => handlePayUsdt(4800)} persons={1} price="$4,800" discount="-20%" originalPrice="$6,000"/>
+                        <PackageCardItem onClick={() => handlePayUsdt(8800)} persons={2} price="8,800" discount="-20%" originalPrice="$11,000"/>
+                    </PackageCard>
+                    <PackageCard type="platinum" text="40 Junior Suite in limited supply">
+                        <PackageCardItem onClick={() => handlePayUsdt(6000)} persons={1} price="$6,000" discount="-20%" originalPrice="$7,500"/>
+                        <PackageCardItem onClick={() => handlePayUsdt(10000)} persons={2} price="$10,000" discount="-20%" originalPrice="$12,500"/>
+                    </PackageCard>
+                    </div>
+                    </Hidden>
+                    <Hidden smUp>
+                        <div className="swiper__wrapper">
+                            <Swiper
+                                spaceBetween={5}
+                                slidesPerView={1.3}
+                                // slidesPerView={'auto'}
+                                loop={false}
+                                centeredSlides={false}
+                                // setWrapperSize={true}
+                                grabCursor={true}
+
+                            >
+                                <SwiperSlide>
+                                    <PackageCard type="gold" text="75 Guest Rooms (Run of House)">
+                                        <PackageCardItem onClick={() => handlePayUsdt(4800)} persons={1} price="$4,800" discount="-20%" originalPrice="$6,000"/>
+                                        <PackageCardItem onClick={() => handlePayUsdt(8800)} persons={2} price="8,800" discount="-20%" originalPrice="$11,000"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <PackageCard type="platinum" text="40 Junior Suite in limited supply">
+                                        <PackageCardItem onClick={() => handlePayUsdt(6000)} persons={1} price="$6,000" discount="-20%" originalPrice="$7,500"/>
+                                        <PackageCardItem onClick={() => handlePayUsdt(10000)} persons={2} price="$10,000" discount="-20%" originalPrice="$12,500"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+
+                    </Hidden>
+                </div>
+            ) : (
+                <div className="packages__tab">
+                    <Hidden smDown>
+                    <div className="packages__tab__cards-row">
+                        <PackageCard type="gold" text="75 Guest Rooms (Run of House)">
+                            <PackageCardItem onClick={() => handlePayUsdt(8000)} persons={1} price="$8,000" discount="-20%" originalPrice="$10,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(14400)} persons={2} price="$14,400" discount="-20%" originalPrice="$18,000"/>
+                        </PackageCard>
+                        <PackageCard type="platinum" text="40 Junior Suite">
+                            <PackageCardItem onClick={() => handlePayUsdt(9600)} persons={1} price="$9,600" discount="-20%" originalPrice="$12,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(16000)} persons={2} price="$16,000" discount="-20%" originalPrice="$20,000"/>
+                        </PackageCard>
+                        <PackageCard type="platinum" text="One bedroom suite in limited supply">
+                            <PackageCardItem onClick={() => handlePayUsdt(9600)} persons={1} price="$9,600" discount="-20%" originalPrice="$12,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(16000)} persons={2} price="$16,000" discount="-20%" originalPrice="$20,000"/>
+                        </PackageCard>
+                        <PackageCard type="vip" text="10 Two Bedroom Suite in limited supply">
+                            <PackageCardItem onClick={() => handlePayUsdt(12000)} persons={1} price="$12,000" discount="-20%" originalPrice="$15,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(20000)} persons={2} price="$20,000" discount="-20%" originalPrice="$25,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(25600)} persons={3} price="$25,600" discount="-20%" originalPrice="$32,000"/>
+                            <PackageCardItem onClick={() => handlePayUsdt(32000)} persons={4} price="$32,000" discount="-20%" originalPrice="$40,000"/>
+                        </PackageCard>
+                    </div>
+                    </Hidden>
+
+                    <Hidden smUp>
+                        <div className="swiper__wrapper">
+                            <Swiper
+                                spaceBetween={5}
+                                slidesPerView={1.3}
+                                // slidesPerView={'auto'}
+                                loop={false}
+                                centeredSlides={false}
+                                // setWrapperSize={true}
+                                grabCursor={true}
+
+                            >
+                                <SwiperSlide>
+                                    <PackageCard type="gold" text="75 Guest Rooms (Run of House)">
+                                        <PackageCardItem persons={1} price="$8,000" discount="-20%" originalPrice="$10,000"/>
+                                        <PackageCardItem persons={2} price="$14,400" discount="-20%" originalPrice="$18,000"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <PackageCard type="platinum" text="40 Junior Suite">
+                                        <PackageCardItem persons={1} price="$9,600" discount="-20%" originalPrice="$12,000"/>
+                                        <PackageCardItem persons={2} price="$16,000" discount="-20%" originalPrice="$20,000"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <PackageCard type="platinum" text="One bedroom suite in limited supply">
+                                        <PackageCardItem persons={1} price="$9,600" discount="-20%" originalPrice="$12,000"/>
+                                        <PackageCardItem persons={2} price="$16,000" discount="-20%" originalPrice="$20,000"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <PackageCard type="vip" text="10 Two Bedroom Suite in limited supply">
+                                        <PackageCardItem persons={1} price="$12,000" discount="-20%" originalPrice="$15,000"/>
+                                        <PackageCardItem persons={2} price="$20,000" discount="-20%" originalPrice="$25,000"/>
+                                        <PackageCardItem persons={3} price="$25,600" discount="-20%" originalPrice="$32,000"/>
+                                        <PackageCardItem persons={4} price="$32,000" discount="-20%" originalPrice="$40,000"/>
+                                    </PackageCard>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+
+                    </Hidden>
+
+                </div>
+            )}
+            </Container>
+            <TicketsCounter number={47}/>
+            <Container>
+                <h2 className="title">INCLUDES</h2>
+                <Grid container columns={10}>
+                    <Grid item md={2} xs={5}>
+                        <div className="includes__row__item">
+                            <img src={ring} className="includes__row__item__icon"/>
+                            <p className="includes__row__item__text">
+                                Hotel room + room service
+                            </p>
+                        </div>
+                    </Grid>
+                    <Grid item md={2} xs={5}>
+                        <div className="includes__row__item">
+                            <img src={cocktail} className="includes__row__item__icon"/>
+                            <p className="includes__row__item__text">
+                                All inclusive Food & Beverages including alcohol
+                            </p>
+                        </div>
+                    </Grid>
+                    <Grid item md={2} xs={5}>
+                        <div className="includes__row__item">
+                            <img src={kayak} className="includes__row__item__icon"/>
+                            <p className="includes__row__item__text">
+                                All Activities
+                            </p>
+                        </div>
+                    </Grid>
+                    <Grid item md={2} xs={5}>
+                        <div className="includes__row__item">
+                            <img src={party} className="includes__row__item__icon"/>
+                            <p className="includes__row__item__text">
+                                All Entertainment
+                            </p>
+                        </div>
+                    </Grid>
+                    <Grid item md={2} xs={10}>
+                        <div className="includes__row__item">
+                            <img src={car} className="includes__row__item__icon"/>
+                            <p className="includes__row__item__text">
+                                Transportation
+                            </p>
+                        </div>
+                    </Grid>
+                </Grid>
+
+            </Container>
+            <p className="discount-info">
+                Club Members = 20% discount off face value
+            </p>
+            {/*</div>*/}
+
+        </section>
+    )
+}

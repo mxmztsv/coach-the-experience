@@ -1,0 +1,71 @@
+.package__card__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px 8px 10px;
+    background: linear-gradient(267.12deg, rgba(255, 255, 255, 0.95) 57.98%, rgba(255, 255, 255, 0) 107%);
+    border-radius: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.package__card__item__col-right__discount-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.package__card__item__col-right__price {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000;
+}
+
+.package__card__item__col-right__discount-row__original-price {
+    font-family: 'Poppins Light', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: line-through;
+
+    color: rgba(0, 0, 0, .5);
+}
+
+.package__card__item__col-right__discount-row__discount {
+    font-family: 'Poppins Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 0 5px;
+    padding: 2px 10px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: #FF7152;
+    border-radius: 20px;
+}
+
+.package__card__item__persons__wrapper {
+    background: #F7F7F7;
+    border-radius: 50px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
