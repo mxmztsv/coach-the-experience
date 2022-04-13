@@ -53,6 +53,34 @@ footer {
     margin: 12px;
 }
 
+.footer__coreblocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.footer__coreblocks__logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.footer__coreblocks__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
 @media (max-width: 600px) {
     .footer__row {
         flex-direction: column;

@@ -8,6 +8,7 @@ import telegram from '../assets/svg/telegram.svg'
 import mail from '../assets/svg/mail.svg'
 import youtube from '../assets/svg/youtube.svg'
 import twitter from '../assets/svg/tweeter.svg'
+import coreblocks from '../assets/svg/coreblocks.svg'
 import * as SocialLinks from "../configs/SocialLinks";
 
 export const Footer = () => {
@@ -45,6 +46,12 @@ export const Footer = () => {
                 <p className="footer__text">
                     © 2022 Coach K Experience. All Rights Reserved.
                 </p>
+                <a href="https://www.coreblocks.io/" className="footer__coreblocks">
+                    <img src={coreblocks} alt="coreblocks logo" className="footer__coreblocks__logo"/>
+                    <p className="footer__coreblocks__text">
+                        Powered by CoreBlocks
+                    </p>
+                </a>
             </Container>
         </footer>
     )
